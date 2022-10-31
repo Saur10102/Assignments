@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.badge:after {
+    content: attr(value);
+    font-size: 12px;
+    color: #fff;
+    background: rgb(15, 135, 221);
+    border-radius: 50%;
+    padding: 0 5px;
+    position: relative;
+    left: -8px;
+    top: -10px;
+    opacity: 0.9;
+}
+
+.container {
+    max-width: 1400px;
+    /* border: 5px solid red; */
+}
+
+slider>div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#slider>div:first-child {
+    justify-content: start;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-caption {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+    left: 7rem;
+
+}
+
+.carousel-caption button {
+    margin: 20px 0px;
+    width: fit-content;
+}
+
+.button-3 {
+
+    display: flex;
+    flex: 100%;
+
+}
+
+.b1l,
+.b2l,
+.b3l {
+    display: flex;
+    flex: 100%;
+    padding: 10px;
+
+}
+
+.b11 {
+    background-color: rgb(66, 183, 234);
+}
+
+.b12 {
+    background-color: rgb(237, 36, 97);
+}
+
+.b13 {
+    background-color: rgb(230, 227, 38);
+}
+
+.container {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.featured>header>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+.block {
+    position: relative;
+    display: flex;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.block:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.box {
+    float: left;
+    width: 33%;
+    border: 2px solid rgb(95, 97, 110);
+    border-radius: .5em;
+    padding: 20px;
+}
+
+@supports (display: grid) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .box {
+        width: auto;
+    }
+}
+
+.row {
+    margin-top: 10px;
+
+    /* margin-left: 15px; */
+    padding: 1px;
+}
+
+.col {
+    padding: 2px;
+    margin: 3x;
+
+}
+
+.images {
+    max-width: 195px;
+    max-height: 226px;
+}
+
+.img-fluid {
+    height: 100%;
+}
+
+.checked {
+    color: orange;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(228, 46, 46);
+}
+
+.color-buttons {
+    display: flex;
+
+}
+
+.b1c,
+.b2c,
+.b3c {
+    display: flex;
+    margin: 2px 10px 0 20px;
+    flex: 100%;
+    padding: 10px;
+    max-height: 10px;
+    max-width: 10px;
+
+}
+
+.b1c {
+    background-color: orange;
+}
+
+.b2c {
+    background-color: rgb(39, 170, 231);
+}
+
+.b3c {
+    background-color: violet;
+}
+
+blk {
+    position: relative;
+    display: flex;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.size-buttons {
+    display: flex;
+
+}
+
+.size {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.s1c,
+.s2c,
+.s3c,
+.s4c {
+    display: flex;
+    margin: 2px 10px 0 20px;
+    flex: 100%;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 15px;
+    max-height: 10px;
+    max-width: 10px;
+}
+
+.blubox {
+    display: flex;
+
+}
+
+.myDiv {
+    /* border: 5px outset red; */
+    color: white;
+    background-color: rgb(89, 179, 209);
+    text-align: center;
+    max-height: 100px;
+    max-width: 100px;
+    margin: 5px 2px 0 10px;
+    padding: 22px;
+}
+
+.digit {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -10px;
+
+}
+
+.instagram {
+    height: 200px;
+    width: 200px;
+}
+
+/* CUstom ScrollBars start */
+div.scroll {
+    margin: 4px, 4px;
+    margin-left: 12px;
+    padding: 4px;
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+
+.material-icons {
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.scrollcat {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.scrollcat .reviews {
+    font-size: 0.5rem;
+}
+
+.scrollcat .opts {
+    font-size: 0.8rem;
+    width: min-content;
+    padding: 0.4rem 0.4rem;
+    margin: 0.1rem;
+    cursor: pointer;
+}
+
+.scrollcat img {
+    height: 135px;
+}
+
+/*  CUstom ScrollBars ends*/
+
+.text-block {
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    left: 20%;
+    ;
+    /* background-color: black; */
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.strip {
+    display: flex;
+}
+
+.button {
+    background-color: #252fe9;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button2 {
+    background-color: #2dabd5;
+}
+
+/* Blue */
+.button3 {
+    background-color: #c4239c;
+}
+
+/* Red */
+.button4 {
+    background-color: #af4996;
+    color: black;
+}
+
+/* Gray */
+.button5 {
+    background-color: #da1919;
+}
+
+/* Black */
+
+
+/* Bottom right text */
+.final-text-block {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    left: 20%;
+    ;
+    /* background-color: black; */
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.circle-buttons {
+    display: flex;
+}
+
+.c1c,
+.c2c,
+.c3c {
+    display: flex;
+    margin: 2px 10px 0 20px;
+    flex: 100%;
+    padding: 10px;
+    max-height: 1%;
+    max-width: 1%;
+    border-radius: 50%;
+}
+
+.c1c {
+    background-color: rgb(39, 170, 231);
+}
+
+.c2c {
+    background-color: rgb(235, 53, 53);
+}
+
+.c3c {
+    background-color: yellow;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+.payment {
+    height: 50px;
+    width: 50px;
+}
